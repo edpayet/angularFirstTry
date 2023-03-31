@@ -1,0 +1,31 @@
+.dropdown {
+  padding: 10px;
+  background-color: cadetblue;
+  border-radius: 4px;
+}
+
+.head {
+  height: 16px;
+}
+
+.body {
+  display: block;
+  //overflow: auto;
+  transform-origin: top center;
+  overflow: hidden;
+  max-height: auto;
+  transition: all 1s;
+}
+
+.hidden .body {
+  animation: closingDown 0.4s;
+  animation-fill-mode: forwards;
+  max-height: 0;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  float: left;
+  background-color: white;
+}

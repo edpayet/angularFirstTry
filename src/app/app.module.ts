@@ -5,10 +5,10 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { DropdownComponent } from './dropdown/dropdown.component';
+import { CollapseComponent } from './Collapse/collapse.component';
 
 @NgModule({
-  declarations: [AppComponent, DropdownComponent],
+  declarations: [AppComponent, CollapseComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

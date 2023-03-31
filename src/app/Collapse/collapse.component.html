@@ -1,0 +1,9 @@
+<div
+  [ngClass]="{ hidden: this.isHidden, dropdown: true }"
+  (click)="toggleHidden()"
+>
+  <div class="head">{{ title }}</div>
+  <div class="body">
+    <ng-content></ng-content>
+  </div>
+</div>
